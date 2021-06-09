@@ -7,9 +7,9 @@ void main() => runApp(MaterialApp(
             "This is my first Flutter app",
             style: TextStyle(
                 color: Colors.cyan,
-                fontSize: 30,
+                fontSize: 15,
                 fontWeight: FontWeight.bold,
-                letterSpacing: 5),
+                letterSpacing: 2),
           ),
           centerTitle: true,
           backgroundColor: Colors.deepOrange,
@@ -21,7 +21,7 @@ void main() => runApp(MaterialApp(
                 color: Colors.amber,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 6,
-                fontSize: 30),
+                fontSize: 20),
           ),
         ),
         floatingActionButton: FloatingActionButton(
